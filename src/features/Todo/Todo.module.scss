@@ -1,0 +1,161 @@
+@import "/src/styles/variable";
+.hoverNav {
+  position: relative;
+
+  &:hover .hoverNavLink {
+    display: block;
+  }
+
+  &:hover  {
+    color: white;
+  }
+
+  &Link {
+    position: absolute;
+    // background-color: brown;
+    top: 20px;
+  
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: none;
+
+    ul {
+      margin-top: 10px;
+      list-style: none;
+      padding-left: 0;
+      background-color: #1976d2;
+
+      .hoverNavLink_Nav {
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        font-weight: 500;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+}
+
+
+.accessory {
+  margin: 40px 75px;
+  display: flex;
+  &Link {
+    display: flex;
+    &Item {
+      padding: 0 !important;
+      font-size: 18px;
+      font-weight: 600;
+      &:hover {
+      }
+    }
+    span {
+      font-weight: 600;
+      padding: 0 10px;
+    }
+  }
+}
+
+.accessoryLeft {
+  h6 {
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  &List {
+    width: 290px;
+    padding: 0 20px;
+    &Item {
+      display: flex !important;
+      padding: 10px 0 !important;
+    }
+  }
+  &List2 {
+    width: 290px;
+    .newpostListContent {
+      display: flex !important;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+      p {
+        margin-top: 5px;
+        margin-left: 10px;
+        line-height: 18px;
+        font-size: 15px;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        &:hover {
+        }
+      }
+    }
+  }
+}
+
+.accessoryRight {
+  &Select {
+    display: flex;
+    margin-left: 380px;
+    p {
+      font-size: 17px;
+      margin-right: 20px;
+      color: black;
+    }
+    &Button {
+      width: 280px !important;
+      height: 38px;
+      margin-top: -5px;
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+  }
+  &Layout {
+    margin-left: 5px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      &:hover {
+      }
+      width: 200px;
+      margin-bottom: 25px;
+      text-align: center;
+      margin-left: 25px;
+      .div_img {
+        width: 180px;
+        height: 126px;
+      }
+      p {
+        margin: 0;
+        padding:0 10px;
+        padding-bottom: 0;
+        overflow: hidden;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+      strong {
+        font-size: 14px;
+      }
+      .Button {
+        width: 113px;
+        height: 30px;
+        align-items: center;
+        margin: 10px 40px;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}

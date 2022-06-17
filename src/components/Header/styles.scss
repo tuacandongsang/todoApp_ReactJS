@@ -1,0 +1,44 @@
+.custom-app-bar {
+  .toolbar {
+    &__icon {
+      margin-right: 100px;
+    }
+    &__item {
+      a {
+        display: inline-block;
+        height: 100%;
+        padding: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #f1f2f6;
+      }
+    }
+    &__right {
+      margin-left: auto;
+    }
+  }
+  .active {
+    background-color: #0984e3;
+  }
+  position: fixed;
+}
+.custom-app-bar-fixed{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.dialog {
+  position: relative;
+  &__btn-close {
+    display: inline-block !important;
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+  }
+}
+.logo__xtp{
+  width: 50px;
+  height: 50px;
+}

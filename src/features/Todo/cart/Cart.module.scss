@@ -1,0 +1,212 @@
+.indicator {
+  cursor: pointer;
+
+  img {
+    width: 130px;
+    height: 97px;
+  }
+
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+.slideshow {
+  margin: 80px 0 0 76px;
+  width: 600px;
+
+  &Image {
+    width: 585px;
+    height: 374px;
+    margin-left: 10px;
+  }
+
+  ul {
+    margin-left: -45px !important;
+  }
+}
+
+.addcart {
+
+  &Content {
+    margin: 80px 20px;
+    margin-right: 55px;
+
+    &Title {
+      display: flex;
+
+      .nav {
+
+        &:hover {
+        }
+      }
+
+      span {
+        padding-top: 7px;
+      }
+    }
+
+    h3 {
+      margin-left: 15px;
+    }
+
+    strong {
+      margin-left: 17px;
+      font-size: 20px;
+    }
+
+    &Price {
+      margin: 20px 17px;
+      display: flex;
+
+      div {
+        display: flex;
+
+        p {
+          border: 1px solid #ccc;
+          padding: 5px 8px;
+          cursor: pointer;
+
+          &:hover {
+          }
+        }
+
+        p:nth-child(2) {
+          padding: 5px 12px;
+          border: 1px solid #ccc;
+          cursor: default;
+        }
+      }
+    }
+
+    .Button {
+      margin-left: 20px;
+      height: 36px !important;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    .delivery {
+      width: 283px;
+
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        display: block;
+      }
+
+      img {
+        width: 92px;
+        height: 46px;
+      }
+    }
+
+    .bank {
+      width: 283px;
+
+      span {
+        font-size: 16px;
+        font-weight: 700;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        display: block;
+      }
+
+      img {
+        width: 92px;
+        height: 46px;
+      }
+    }
+
+    .p {
+      padding: 20px 80px 0 20px;
+      font-weight: 700;
+      font-size: 15px;
+    }
+  }
+}
+
+
+.box2 {
+  margin: 40px 76px;
+  width: 89% !important;
+  border: 1px solid gray;
+
+  .tab2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+  }
+
+  .tabPanel2 {
+    div {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+.tabPanel3 {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  strong {
+    font-size: 14px;
+  }
+  .comments {
+    margin-top: 10px;
+    .evaluate {
+      display: flex;
+      padding-top: 10px;
+      border-bottom: 1px solid gray;
+      img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+      }
+      div {
+        p {
+          max-width: 600px;
+          padding: 10px 0;
+          margin: 0;
+        }
+        margin-left: 20px;
+      }
+    }
+  }
+  .Input {
+    margin-bottom: 20px;
+    div {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      input {
+        padding: 5px;
+        width: 500px;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+}
+
+.indicator {
+  cursor: pointer;
+  img {
+    width: 130px;
+    height: 97px;
+  }
+
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
