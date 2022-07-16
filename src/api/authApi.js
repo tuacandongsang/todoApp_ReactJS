@@ -10,5 +10,6 @@ const api = {
     const url = `https://api.ezfrontend.com/auth/local/`;
     return axios.post(url, data);
   },
+  
 };
 export default api;

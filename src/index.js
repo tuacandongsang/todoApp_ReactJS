@@ -1,9 +1,11 @@
+
 import store from 'app/store';
 import { SnackbarProvider } from 'notistack';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import { ThemeContext } from 'ThemeuseContext/useContext';
 import App from './App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -13,17 +15,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
-        <SnackbarProvider
-          maxSnack={3}
-          anchorOrigin={{
-            vertical: 'bottom',
-            horizontal: 'right',
-          }}
-        >
-          <App />
-        </SnackbarProvider>
-      </BrowserRouter>
+      <ThemeContext>
+        <BrowserRouter>
+          <SnackbarProvider
+            maxSnack={3}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+          >
+            <App />
+          </SnackbarProvider>
+        </BrowserRouter>
+      </ThemeContext>
     </Provider>
   </React.StrictMode>
 );

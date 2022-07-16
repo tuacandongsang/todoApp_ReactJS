@@ -31,11 +31,12 @@ import css1 from './css1.png'
 import css2 from './css2.png'
 import css3 from './css3.jpg'
 import imguser from './user.png'
+import logo from "./banner.png"
 
 
 
 
-
+export {logo}
 
 
 
@@ -74,7 +75,6 @@ const SlideImagesHoaXoan = [
     src5: hoaxoan5,
     price5: '999',
     name5: 'hoa xoan 9',
-
   },
 ]
 
